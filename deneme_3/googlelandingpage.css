@@ -1,0 +1,113 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    box-sizing: border-box;
+}
+body{
+    height: 2000px;
+}
+a{
+    color: black;
+    text-decoration: none;
+    padding-right: 10px;
+    opacity: 0.6;
+}
+a:hover{
+    color: black;
+    text-decoration: underline;
+    opacity: 1;
+}
+#appicon{
+    vertical-align: baseline;
+    opacity: 0.5;
+}
+#appicon:hover{
+    opacity: 1;
+}
+#sign{
+    background-color:rgba(0, 0, 255, 0.432);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+.nav-right{
+    background-color: blue;
+    opacity: 0.6;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+}
+.nav-right:hover{
+    opacity: 1;
+}
+.nav-left{
+    background-color: blue;
+    opacity: 0.6;
+    position: fixed;
+    top: 18px;
+    left: 5px;
+}
+.nav-left:hover{
+    opacity: 1;
+}
+.content{
+    text-align: center;
+    position: relative;
+    margin-top: 300px;
+}
+#btn1,#btn2{
+    width: fit-content;
+    padding: 100px;
+    height: 100px;
+}
+.searchbar{
+    background-color: blue;
+    /* background-color: blue; */
+    /* padding: 20px; */
+    text-align: center;
+    position: relative;
+}
+#gsearch{
+    padding: 0px 50px;
+    color: red;
+    font-size: 16px;
+    width: 460px;
+    height: 38px;
+    border-radius: 3rem;
+    position: relative;
+}
+#gsearch:hover{
+    box-shadow: 1mm;
+}
+#gmic{
+    width: 15px;
+    position: absolute;
+    left: 20px;
+}
+#lang{
+    color: blue;
+    text-decoration: underline;
+}
+.footer{
+    width: 100%;
+    background-color: #E6D8D8;
+    position: fixed;
+    left: 0px;
+    bottom: 3px;
+}
+.footer-top{
+    position: fixed;
+    bottom: 10px;
+    left: 6px;
+}
+.footer-left{
+    position: fixed;
+    margin-left: 5px;
+    left: 5px;
+    bottom: 3px;
+}
+.footer-right{
+    position: fixed;
+    right: 5px;
+    bottom: 3px;
+}
